@@ -1,5 +1,7 @@
 body {
   background-color: hsl(233, 47%, 7%);
+  align-content: center;
+
 }
 
 .card {
@@ -13,12 +15,15 @@ body {
 }
 .cardLeft {
   width: 50%;
+  align-content: center;
+  text-align: justify;
 }
 
 .cardRight {
-  background-image: url("/images/image-header-desktop.jpg"),
-    linear-gradient(hsl(277, 64%, 61%));
+  background-image: url("/images/image-header-desktop.jpg");
   background-repeat: no-repeat;
   width: 50%;
   background-size: 100%;
+  align-content: center;
+
 }
